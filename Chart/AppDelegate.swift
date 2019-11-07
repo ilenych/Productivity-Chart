@@ -2,7 +2,6 @@
 //  AppDelegate.swift
 //  Chart
 //
-//  Created by  SENAT on 06.11.2019.
 //  Copyright © 2019 <ASi. All rights reserved.
 //
 
@@ -14,7 +13,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        UISegmentedControl.appearance().selectedSegmentTintColor = .white
+        UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.black], for: .selected)
         return true
     }
 

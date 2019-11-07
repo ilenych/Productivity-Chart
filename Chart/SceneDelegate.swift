@@ -2,7 +2,6 @@
 //  SceneDelegate.swift
 //  Chart
 //
-//  Created by  SENAT on 06.11.2019.
 //  Copyright © 2019 <ASi. All rights reserved.
 //
 
